@@ -1,0 +1,675 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|c:\\users\\lenovo\\source\\repos\\begywebsapi\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|c:\\users\\lenovo\\source\\repos\\begywebsapi\\models\\ventasbegycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|solutionrelative:models\\ventasbegycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|c:\\users\\lenovo\\source\\repos\\begywebsapi\\utilidades\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|solutionrelative:utilidades\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|c:\\users\\lenovo\\source\\repos\\begywebsapi\\dtos\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|solutionrelative:dtos\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|c:\\users\\lenovo\\source\\repos\\begywebsapi\\dtos\\creacioncategoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|solutionrelative:dtos\\creacioncategoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|c:\\users\\lenovo\\source\\repos\\begywebsapi\\dtos\\creacioncartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|solutionrelative:dtos\\creacioncartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|c:\\users\\lenovo\\source\\repos\\begywebsapi\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|solutionrelative:models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|c:\\users\\lenovo\\source\\repos\\begywebsapi\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|solutionrelative:models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|c:\\users\\lenovo\\source\\repos\\begywebsapi\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|solutionrelative:models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|c:\\users\\lenovo\\source\\repos\\begywebsapi\\dtos\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|solutionrelative:dtos\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|c:\\users\\lenovo\\source\\repos\\begywebsapi\\models\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|solutionrelative:models\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|c:\\users\\lenovo\\source\\repos\\begywebsapi\\models\\pedidoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|solutionrelative:models\\pedidoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|c:\\users\\lenovo\\source\\repos\\begywebsapi\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|solutionrelative:models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|c:\\users\\lenovo\\source\\repos\\begywebsapi\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|solutionrelative:controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|c:\\users\\lenovo\\source\\repos\\begywebsapi\\validaciones\\validacionemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|solutionrelative:validaciones\\validacionemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|c:\\users\\lenovo\\source\\repos\\begywebsapi\\validaciones\\validacionpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|solutionrelative:validaciones\\validacionpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|c:\\users\\lenovo\\source\\repos\\begywebsapi\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|solutionrelative:controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|c:\\users\\lenovo\\source\\repos\\begywebsapi\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|solutionrelative:controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|c:\\users\\lenovo\\source\\repos\\begywebsapi\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|solutionrelative:controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|c:\\users\\lenovo\\source\\repos\\begywebsapi\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|solutionrelative:dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|c:\\users\\lenovo\\source\\repos\\begywebsapi\\dtos\\creacionusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|solutionrelative:dtos\\creacionusuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|c:\\users\\lenovo\\source\\repos\\begywebsapi\\models\\usaurio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|solutionrelative:models\\usaurio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|c:\\users\\lenovo\\source\\repos\\begywebsapi\\dtos\\creacionproductodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|solutionrelative:dtos\\creacionproductodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|c:\\users\\lenovo\\source\\repos\\begywebsapi\\dtos\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|solutionrelative:dtos\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|c:\\users\\lenovo\\source\\repos\\begywebsapi\\validaciones\\primeraletramayuscula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|solutionrelative:validaciones\\primeraletramayuscula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|c:\\users\\lenovo\\source\\repos\\begywebsapi\\dtos\\creacionroledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|solutionrelative:dtos\\creacionroledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|c:\\users\\lenovo\\source\\repos\\begywebsapi\\dtos\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|solutionrelative:dtos\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|c:\\users\\lenovo\\source\\repos\\begywebsapi\\dtos\\pedidodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|solutionrelative:dtos\\pedidodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|c:\\users\\lenovo\\source\\repos\\begywebsapi\\dtos\\pedidoitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|solutionrelative:dtos\\pedidoitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|c:\\users\\lenovo\\source\\repos\\begywebsapi\\utilidades\\ialmacenadorarchivos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|solutionrelative:utilidades\\ialmacenadorarchivos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|c:\\users\\lenovo\\source\\repos\\begywebsapi\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|solutionrelative:models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|c:\\users\\lenovo\\source\\repos\\begywebsapi\\dtos\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|solutionrelative:dtos\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|c:\\users\\lenovo\\source\\repos\\begywebsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|c:\\users\\lenovo\\source\\repos\\begywebsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|c:\\users\\lenovo\\source\\repos\\begywebsapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|c:\\users\\lenovo\\source\\repos\\begywebsapi\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|solutionrelative:models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|c:\\users\\lenovo\\source\\repos\\begywebsapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|c:\\users\\lenovo\\source\\repos\\begywebsapi\\dtos\\pagodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7ADB5D-39CF-49A5-A094-6209CB029BF9}|begywebsapi.csproj|solutionrelative:dtos\\pagodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VentasbegyContext.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Models\\VentasbegyContext.cs",
+              "RelativeDocumentMoniker": "Models\\VentasbegyContext.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Models\\VentasbegyContext.cs*",
+              "RelativeToolTip": "Models\\VentasbegyContext.cs*",
+              "ViewState": "AQIAACEAAAAAAAAAAIA3wDYAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T00:50:00.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Controllers\\CartController.cs*",
+              "RelativeToolTip": "Controllers\\CartController.cs*",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAAAH8AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T00:32:30.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreacionCartItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\DTOs\\CreacionCartItemDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CreacionCartItemDto.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\DTOs\\CreacionCartItemDto.cs",
+              "RelativeToolTip": "DTOs\\CreacionCartItemDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T00:32:00.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Models\\Producto.cs",
+              "RelativeToolTip": "Models\\Producto.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA3wBcAAAByAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T03:40:22.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreacionCategoriaDto.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\DTOs\\CreacionCategoriaDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CreacionCategoriaDto.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\DTOs\\CreacionCategoriaDto.cs",
+              "RelativeToolTip": "DTOs\\CreacionCategoriaDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T03:10:40.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AutoMapperProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Utilidades\\AutoMapperProfiles.cs",
+              "RelativeDocumentMoniker": "Utilidades\\AutoMapperProfiles.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Utilidades\\AutoMapperProfiles.cs",
+              "RelativeToolTip": "Utilidades\\AutoMapperProfiles.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAswCYAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T03:22:23.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CartItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\DTOs\\CartItemDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CartItemDto.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\DTOs\\CartItemDto.cs",
+              "RelativeToolTip": "DTOs\\CartItemDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T17:38:37.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Models\\CartItem.cs",
+              "RelativeToolTip": "Models\\CartItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T02:45:56.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "Models\\Cart.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Models\\Cart.cs",
+              "RelativeToolTip": "Models\\Cart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T02:45:24.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CartDto.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\DTOs\\CartDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CartDto.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\DTOs\\CartDto.cs",
+              "RelativeToolTip": "DTOs\\CartDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T17:37:10.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Pago.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Models\\Pago.cs",
+              "RelativeDocumentMoniker": "Models\\Pago.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Models\\Pago.cs",
+              "RelativeToolTip": "Models\\Pago.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T23:45:23.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Models\\Pedido.cs",
+              "RelativeDocumentMoniker": "Models\\Pedido.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Models\\Pedido.cs",
+              "RelativeToolTip": "Models\\Pedido.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T23:44:49.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Controllers\\UsuarioController.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAgwEIAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T19:01:28.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ValidacionEmail.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Validaciones\\ValidacionEmail.cs",
+              "RelativeDocumentMoniker": "Validaciones\\ValidacionEmail.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Validaciones\\ValidacionEmail.cs",
+              "RelativeToolTip": "Validaciones\\ValidacionEmail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T19:37:31.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ValidacionPassword.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Validaciones\\ValidacionPassword.cs",
+              "RelativeDocumentMoniker": "Validaciones\\ValidacionPassword.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Validaciones\\ValidacionPassword.cs",
+              "RelativeToolTip": "Validaciones\\ValidacionPassword.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T19:39:05.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PedidoItem.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Models\\PedidoItem.cs",
+              "RelativeDocumentMoniker": "Models\\PedidoItem.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Models\\PedidoItem.cs",
+              "RelativeToolTip": "Models\\PedidoItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T03:07:51.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductoController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Controllers\\ProductoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductoController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Controllers\\ProductoController.cs",
+              "RelativeToolTip": "Controllers\\ProductoController.cs",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAUwHoAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T03:18:18.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RoleController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "Controllers\\RoleController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAIwEwAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T16:12:38.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CategoriaController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Controllers\\CategoriaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoriaController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Controllers\\CategoriaController.cs",
+              "RelativeToolTip": "Controllers\\CategoriaController.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAowBMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T03:12:32.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UsuarioDto.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\DTOs\\UsuarioDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\UsuarioDto.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\DTOs\\UsuarioDto.cs",
+              "RelativeToolTip": "DTOs\\UsuarioDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T17:31:42.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CreacionUsuarioDto.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\DTOs\\CreacionUsuarioDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CreacionUsuarioDto.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\DTOs\\CreacionUsuarioDto.cs",
+              "RelativeToolTip": "DTOs\\CreacionUsuarioDto.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T19:04:28.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Usaurio.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Models\\Usaurio.cs",
+              "RelativeDocumentMoniker": "Models\\Usaurio.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Models\\Usaurio.cs",
+              "RelativeToolTip": "Models\\Usaurio.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T03:47:50.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CreacionProductoDto.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\DTOs\\CreacionProductoDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CreacionProductoDto.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\DTOs\\CreacionProductoDto.cs",
+              "RelativeToolTip": "DTOs\\CreacionProductoDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T03:27:18.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ProductoDto.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\DTOs\\ProductoDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\ProductoDto.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\DTOs\\ProductoDto.cs",
+              "RelativeToolTip": "DTOs\\ProductoDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T18:35:53.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PrimeraLetraMayuscula.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Validaciones\\PrimeraLetraMayuscula.cs",
+              "RelativeDocumentMoniker": "Validaciones\\PrimeraLetraMayuscula.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Validaciones\\PrimeraLetraMayuscula.cs",
+              "RelativeToolTip": "Validaciones\\PrimeraLetraMayuscula.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T19:36:33.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PedidoItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\DTOs\\PedidoItemDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\PedidoItemDto.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\DTOs\\PedidoItemDto.cs",
+              "RelativeToolTip": "DTOs\\PedidoItemDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T17:41:54.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RoleDto.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\DTOs\\RoleDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\RoleDto.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\DTOs\\RoleDto.cs",
+              "RelativeToolTip": "DTOs\\RoleDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T17:32:46.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CreacionRoleDto.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\DTOs\\CreacionRoleDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CreacionRoleDto.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\DTOs\\CreacionRoleDto.cs",
+              "RelativeToolTip": "DTOs\\CreacionRoleDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T16:18:27.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PedidoDto.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\DTOs\\PedidoDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\PedidoDto.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\DTOs\\PedidoDto.cs",
+              "RelativeToolTip": "DTOs\\PedidoDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T17:40:20.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IAlmacenadorArchivos.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Utilidades\\IAlmacenadorArchivos.cs",
+              "RelativeDocumentMoniker": "Utilidades\\IAlmacenadorArchivos.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Utilidades\\IAlmacenadorArchivos.cs",
+              "RelativeToolTip": "Utilidades\\IAlmacenadorArchivos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T16:22:02.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "Models\\Role.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Models\\Role.cs",
+              "RelativeToolTip": "Models\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T03:47:59.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CategoriaDto.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\DTOs\\CategoriaDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\CategoriaDto.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\DTOs\\CategoriaDto.cs",
+              "RelativeToolTip": "DTOs\\CategoriaDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T17:35:55.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAB0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-25T22:40:11.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T22:40:00.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-25T22:40:08.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Models\\Categoria.cs",
+              "RelativeToolTip": "Models\\Categoria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T02:47:05.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-25T22:40:15.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "PagoDto.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\DTOs\\PagoDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\PagoDto.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\DTOs\\PagoDto.cs",
+              "RelativeToolTip": "DTOs\\PagoDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T22:27:59.11Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

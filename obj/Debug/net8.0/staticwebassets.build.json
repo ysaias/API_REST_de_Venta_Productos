@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "uuIUHy0XSCf+vYuWofhrVdFS7D+QMe2aWX8egcPNNEw=",
+  "Source": "begywebsapi",
+  "BasePath": "_content/begywebsapi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "begywebsapi\\wwwroot",
+      "Source": "begywebsapi",
+      "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\wwwroot\\",
+      "BasePath": "_content/begywebsapi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\wwwroot\\producto\\02f18f73-0ef4-4d6d-b59c-1b3e4a11e84c.jpg",
+      "SourceId": "begywebsapi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\wwwroot\\",
+      "BasePath": "_content/begywebsapi",
+      "RelativePath": "producto/02f18f73-0ef4-4d6d-b59c-1b3e4a11e84c.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\producto\\02f18f73-0ef4-4d6d-b59c-1b3e4a11e84c.jpg"
+    }
+  ]
+}

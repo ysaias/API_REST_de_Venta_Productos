@@ -1,0 +1,13 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace begywebsapi.Models;
+
+public partial class Role
+{
+    public int Id { get; set; }
+
+    public string RoleNombre { get; set; } = null!;
+
+    public virtual ICollection<Usaurio> Usaurios { get; set; } = new List<Usaurio>();
+}

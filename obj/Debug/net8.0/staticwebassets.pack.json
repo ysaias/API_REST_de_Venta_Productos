@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\LENOVO\\source\\repos\\begywebsapi\\wwwroot\\producto\\02f18f73-0ef4-4d6d-b59c-1b3e4a11e84c.jpg",
+      "PackagePath": "staticwebassets\\producto\\02f18f73-0ef4-4d6d-b59c-1b3e4a11e84c.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.begywebsapi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.begywebsapi.props",
+      "PackagePath": "build\\begywebsapi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.begywebsapi.props",
+      "PackagePath": "buildMultiTargeting\\begywebsapi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.begywebsapi.props",
+      "PackagePath": "buildTransitive\\begywebsapi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
