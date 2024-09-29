@@ -1,6 +1,6 @@
 ﻿namespace begywebsapi.DTOs
 {
-    public class PedidoDto
+    public class PedidoDetalleDto
     {
         public int Id { get; set; }
         public int UsuarioId { get; set; }

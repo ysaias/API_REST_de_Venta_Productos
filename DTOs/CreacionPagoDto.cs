@@ -1,12 +1,10 @@
 ﻿namespace begywebsapi.DTOs
 {
-    public class PagoDto
+    public class CreacionPagoDto
     {
-        public int Id { get; set; }
         public int PedidoId { get; set; }
-        public DateTime FechaDePago { get; set; }
+        public DateTime FechaDePago { get; set; } = DateTime.Now;
         public string MetodoDePago { get; set; } = null!;
         public decimal MontoDePago { get; set; }
     }
-
 }

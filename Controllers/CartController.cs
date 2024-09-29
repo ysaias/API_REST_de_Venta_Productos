@@ -80,13 +80,14 @@ namespace begywebsapi.Controllers
             }
 
             await _context.SaveChangesAsync();
+
             return NoContent();
         }
 
 
         // Eliminar un producto del carrito
-        [HttpDelete("{usuarioId:int}/items/{productoId:int}")]
-        public async Task<ActionResult> RemoveItemFromCart(int usuarioId, int productoId)
+        [HttpDelete("{usuarioId:int}/producto/{productoId:int}")]
+        public async Task<ActionResult> RemoveProductoFromCart(int usuarioId, int productoId)
         {
             var cart = await _context.Carts
                  .Include(c => c.CartItems)
@@ -102,6 +103,7 @@ namespace begywebsapi.Controllers
             {
                 return NotFound("Producto no encontrado en el carrito");
             }
+
 
             _context.CartItems.Remove(cartItem); // Eliminar directamente
             await _context.SaveChangesAsync();
@@ -127,5 +129,32 @@ namespace begywebsapi.Controllers
 
             return NoContent();
         }
+
+        //Elimina el Cart
+        [HttpDelete("{usuarioId:int}/deletedcart")]
+        public async Task<ActionResult> DeleteCart(int usuarioId)
+        {
+            var cart = await _context.Carts
+                .Include(c => c.CartItems)
+                .FirstOrDefaultAsync(c => c.UsuarioId == usuarioId);
+
+            if (cart == null)
+            {
+                return NotFound("Carrito no encontrado");
+            }
+
+            // Eliminar manualmente todos los CartItems antes de eliminar el Cart
+            _context.CartItems.RemoveRange(cart.CartItems);
+
+            // Luego eliminar el carrito
+            _context.Carts.Remove(cart);
+
+            await _context.SaveChangesAsync();
+
+            //return Ok("Carrito y sus items eliminados correctamente.");
+
+            return NoContent();
+        }
+
     }
 }
