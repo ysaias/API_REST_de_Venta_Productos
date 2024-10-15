@@ -19,5 +19,5 @@ public partial class Pedido
 
     public virtual ICollection<PedidoItem> PedidoItems { get; set; } = new List<PedidoItem>();
 
-    public virtual Usaurio Usuario { get; set; } = null!;
+    public virtual Usuario Usuario { get; set; } = null!;
 }

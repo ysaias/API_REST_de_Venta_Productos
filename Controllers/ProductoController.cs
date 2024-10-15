@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using AutoMapper;
 using begywebsapi.DTOs;
 using begywebsapi.Utilidades;
+using Microsoft.AspNetCore.Authorization;
 
 namespace begywebsapi.Controllers
 {
@@ -25,23 +26,7 @@ namespace begywebsapi.Controllers
             this.almacenadorArchivos = almacenadorArchivos;
         }
 
-        [HttpGet]
-        public async Task<ActionResult<List<ProductoDto>>> Get() {
-            try
-            {
-                var listaProductos = await _context.Productos
-                    .Include(x => x.Categoria)
-                    .OrderBy(x => x.Nombre).ToListAsync();
-
-
-                return _mapper.Map<List<ProductoDto>>(listaProductos);
-
-            }
-            catch (Exception ex) { 
-                return BadRequest(ex.Message);
-            }
-
-        }
+       
 
         [HttpPost]
         public async Task<ActionResult> Post([FromForm] CreacionProductoDto creacionProductoDto)
@@ -78,19 +63,32 @@ namespace begywebsapi.Controllers
         [HttpPut("{id:int}")]
         public async Task<ActionResult> Put(int id, [FromForm] CreacionProductoDto creacionProductoDto)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState); // Esto proporcionará detalles sobre qué campos son incorrectos
+            }
+
             var producto = await _context.Productos.FirstOrDefaultAsync(x => x.Id == id);
 
             if (producto == null)
             {
                 return NotFound();
-            }
+            } 
 
+            // Mapear los demás campos
             producto = _mapper.Map(creacionProductoDto, producto);
+            
 
-            if (creacionProductoDto.ImagenUrl != null)
+            // Verifica si se ha recibido una nueva imagen
+            if (creacionProductoDto.ImagenUrl != null && creacionProductoDto.ImagenUrl.Length > 0)
             {
+                // Si hay una nueva imagen, se actualiza
                 producto.ImagenUrl = await almacenadorArchivos.EditarArchico(contenedor, creacionProductoDto.ImagenUrl, producto.ImagenUrl);
-
+            }
+            else
+            {
+                // Si no se selecciona una nueva imagen, conservar la imagen actual
+                producto.ImagenUrl = producto.ImagenUrl;  // Mantener la imagen original
             }
 
             await _context.SaveChangesAsync();
@@ -124,5 +122,100 @@ namespace begywebsapi.Controllers
                 .Take(5)
                 .ToListAsync();
         }
+
+        [HttpGet]
+        public async Task<ActionResult<LandingPageDto>> GetProductos()
+        {
+            var top = 6;
+
+            var productos = await _context.Productos
+                .OrderBy(x => x.CreatedAt)
+                .Take(top)
+                .ToListAsync();
+
+            var resultado = new LandingPageDto();
+            resultado.Productos = _mapper.Map<List<ProductoDto>>(productos);
+
+            return resultado;
+        }
+
+        [HttpGet("postget")]
+        public async Task<ActionResult<CategoriasPostGetDTO>> PostGet()
+        {
+            var categorias = await _context.Categorias.ToListAsync();
+            
+
+            var categoriasDTO = _mapper.Map<List<CategoriaDto>>(categorias);
+
+            return new CategoriasPostGetDTO { Categorias = categoriasDTO };
+        }
+
+        [HttpGet("PutGet/{id:int}")]
+        public async Task<ActionResult<productoPutGetDto>> PutGet(int id)
+        {
+            var productoActionResult = await Get(id);
+            if (productoActionResult.Result is NotFoundResult) { return NotFound(); }
+
+            var producto = productoActionResult.Value;
+
+            // Obtener la lista de categorías no seleccionadas
+            var categoriasNoSeleccionados = await _context.Categorias
+                .Where(x => x.Id != producto.CategoriaId)  // Mostrar todas excepto la categoría ya seleccionada
+                .ToListAsync();
+
+            var categoriasNoSelecionadosDTO = _mapper.Map<List<CategoriaDto>>(categoriasNoSeleccionados);
+
+            var respuesta = new productoPutGetDto
+            {
+                Producto = producto,
+                CategoriasNoSeleccionados = categoriasNoSelecionadosDTO
+            };
+
+            return respuesta;
+
+        }
+
+        [HttpGet("filtrar")]
+        public async Task<ActionResult<List<ProductoDto>>> Filtrar([FromQuery] ProductoFiltrarDto productoFiltrarDto)
+        {
+            var productosQueryable = _context.Productos.AsQueryable();
+
+            if (!string.IsNullOrEmpty(productoFiltrarDto.Nombre))
+            {
+                productosQueryable = productosQueryable.Where(x => x.Nombre.Contains(productoFiltrarDto.Nombre));
+            }
+
+            if (productoFiltrarDto.FechaDesde.HasValue)
+            {
+                productosQueryable = productosQueryable.Where(x => x.CreatedAt >= productoFiltrarDto.FechaDesde.Value);
+            }
+
+            if (productoFiltrarDto.FechaHasta.HasValue)
+            {
+                productosQueryable = productosQueryable.Where(x => x.CreatedAt <= productoFiltrarDto.FechaHasta.Value); 
+            }
+
+            if(productoFiltrarDto.CategoriaId != 0)
+            {
+                productosQueryable = productosQueryable.Where(x => x.CategoriaId == productoFiltrarDto.CategoriaId);    
+            }
+
+            if (productoFiltrarDto.PrecioMin != 0)
+            {
+                productosQueryable = productosQueryable.Where(x => x.Precio >= productoFiltrarDto.PrecioMin);
+            }
+
+            if (productoFiltrarDto.PrecioMax != 0)
+            {
+                productosQueryable = productosQueryable.Where(x => x.Precio <= productoFiltrarDto.PrecioMax);
+            }
+
+            await HttpContext.InsertarParametrosPaginacionEnCabecera(productosQueryable);   
+
+            var productos = await productosQueryable.Paginar(productoFiltrarDto.PaginacionDTO).ToListAsync();
+            
+            return _mapper.Map<List<ProductoDto>>(productos);
+        }
+
     }
 }

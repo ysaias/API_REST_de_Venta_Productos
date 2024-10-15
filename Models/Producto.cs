@@ -21,7 +21,7 @@ public partial class Producto
 
     public DateTime CreatedAt { get; set; } = DateTime.Now;
 
-    public virtual ICollection<CartItem> CartItems { get; set; } = new List<CartItem>(); // Relación con CartItems
+    public virtual ICollection<CartItem> CartItems { get; set; } = new List<CartItem>(); 
 
     public virtual Categoria? Categoria { get; set; }
 

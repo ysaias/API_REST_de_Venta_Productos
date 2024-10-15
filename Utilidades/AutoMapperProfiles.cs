@@ -14,11 +14,18 @@ namespace begywebsapi.Utilidades
             {
                 // Aquí se define el mapeo 
 
-                CreateMap<CreacionCategoriaDto, Producto>()
-                    .ForMember(x => x.ImagenUrl, option => option.Ignore());
+               
 
-                CreateMap<Producto, ProductoDto>(); 
-                
+                CreateMap<Producto, ProductoDto>();
+
+                CreateMap<CreacionProductoDto, Producto>()
+                 .ForMember(dest => dest.Id, opt => opt.Ignore())
+                 .ForMember(dest => dest.CreatedAt, opt => opt.Ignore())
+                 .ForMember(dest => dest.ImagenUrl, opt => opt.Ignore() );
+
+
+                CreateMap<Producto, CreacionProductoDto>();
+
                 CreateMap<Categoria, CategoriaDto>();
                 
                 CreateMap<CreacionCategoriaDto, Categoria>();
@@ -27,9 +34,9 @@ namespace begywebsapi.Utilidades
 
                 CreateMap<CreacionRoleDto, Role>();
 
-                CreateMap<Usaurio, UsuarioDto>();
+                CreateMap<Usuario, UsuarioDto>();
 
-                CreateMap<CreacionUsuarioDto, Usaurio>();
+                CreateMap<CreacionUsuarioDto, Usuario>();
 
                 CreateMap<Cart, CartDto>()
                     .ForMember(x => x.CartItems, opt => opt.MapFrom(src => src.CartItems));

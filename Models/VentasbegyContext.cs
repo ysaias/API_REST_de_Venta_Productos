@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace begywebsapi.Models;
 
-public partial class VentasbegyContext : DbContext
+public partial class VentasbegyContext : IdentityDbContext
 {
    
     public VentasbegyContext(DbContextOptions<VentasbegyContext> options)
@@ -28,7 +29,7 @@ public partial class VentasbegyContext : DbContext
 
     public virtual DbSet<Role> Roles { get; set; }
 
-    public virtual DbSet<Usaurio> Usaurios { get; set; }
+    public virtual DbSet<Usuario> Usaurios { get; set; }
 
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -130,7 +131,7 @@ public partial class VentasbegyContext : DbContext
                 .IsUnicode(false);
         });
 
-        modelBuilder.Entity<Usaurio>(entity =>
+        modelBuilder.Entity<Usuario>(entity =>
         {
             entity.Property(e => e.Apellido)
                 .HasMaxLength(50)
@@ -152,8 +153,8 @@ public partial class VentasbegyContext : DbContext
                 .HasConstraintName("FK_Usaurios_Roles");
         });
 
-        OnModelCreatingPartial(modelBuilder);
+       base.OnModelCreating(modelBuilder);
     }
 
-    partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
+    
 }

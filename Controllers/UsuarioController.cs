@@ -47,7 +47,7 @@ namespace begywebsapi.Controllers
 
             try
             {
-                var usuario = _mapper.Map<Usaurio>(creacionUsuarioDto);
+                var usuario = _mapper.Map<Usuario>(creacionUsuarioDto);
                 usuario.CreatedAt = DateTime.Now;
                 _context.Add(usuario);
                 await _context.SaveChangesAsync();

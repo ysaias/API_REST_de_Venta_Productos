@@ -39,7 +39,7 @@ namespace begywebsapi.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult> Post([FromForm] CreacionCategoriaDto creacionCategoriaDto)
+        public async Task<ActionResult> Post([FromBody] CreacionCategoriaDto creacionCategoriaDto)
         {
 
             try
@@ -73,7 +73,7 @@ namespace begywebsapi.Controllers
 
 
         [HttpPut("{id:int}")]
-        public async Task<ActionResult> Put(int id, [FromForm] CreacionCategoriaDto creacionCategoriaDto)
+        public async Task<ActionResult> Put(int id, [FromBody] CreacionCategoriaDto creacionCategoriaDto)
         {
             var categoria = await _context.Categorias.FirstOrDefaultAsync(x => x.Id == id);
 
